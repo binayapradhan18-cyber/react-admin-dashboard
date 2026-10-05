@@ -1,0 +1,35 @@
+.full,
+.compact {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.full {
+  flex-direction: column;
+  justify-content: center;
+  min-height: 40vh;
+  padding: var(--space-8);
+  text-align: center;
+}
+
+.compact {
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 120px;
+  padding: var(--space-4);
+  text-align: left;
+}
+
+.icon {
+  color: var(--color-danger);
+  flex-shrink: 0;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.message {
+  color: var(--color-text-muted);
+}
