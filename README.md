@@ -131,15 +131,7 @@ Note: jsdom swaps in its own `AbortController`, which Node's native `fetch` reje
 
 ## Screenshots
 
-> _Placeholder: add screenshots or a short GIF here._
-
-| Dashboard (light)                      | Dashboard (dark)                      |
-| -------------------------------------- | ------------------------------------- |
-| `docs/screenshots/dashboard-light.png` | `docs/screenshots/dashboard-dark.png` |
-
-| Users list                   | Order detail                        |
-| ---------------------------- | ----------------------------------- |
-| `docs/screenshots/users.png` | `docs/screenshots/order-detail.png` |
+![Dashboard with KPI cards, revenue area chart and recent activity](docs/screenshots/dashboard.jpg)
 
 ## Possible next steps
 
